@@ -117,7 +117,7 @@ app.get("/articles", async (req, res) => {
   */
 });
 
-/* retourner un article spésifique*/
+/* retourner un article spésifique */
 
 app.get("/articles/:articleID", async (req, res) => {
   const id = req.params.articleID;
