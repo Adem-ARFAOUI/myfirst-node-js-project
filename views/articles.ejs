@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+</head>
+<body>
+    <h1> All Articles Page </h1>
+    <hr>
+    <div style="background: orangered ;color:black ; padding: 20px;">
+        <% for( let articles of allArticles) { %>
+            <h1 style="background-color: cadetblue;"><%= articles.title %></h1>
+            <h5> <%= articles.body %></h5>
+            <hr>
+            <br>
+        <% } %>
+    </div>
+</body>
+</html>
+<!--for ( "varible1" of "variable2") :C'est un boucle JS qui permet de parcourir le "var1" "var2" fois-->
