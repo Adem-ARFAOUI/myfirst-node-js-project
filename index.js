@@ -137,7 +137,7 @@ app.delete("/articles/:articleID", async (req, res) => {
     return res.send("error");
   }
 });
-// le methode try / catch facilite l'identification des erreurs .
+// le methode try / catch facilite l'identification des erreurs.
 
 
 app.get("/showArticles", async (req , res) =>{
